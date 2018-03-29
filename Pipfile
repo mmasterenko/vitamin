@@ -1,0 +1,19 @@
+[[source]]
+verify_ssl = true
+url = "https://pypi.python.org/simple"
+name = "pypi"
+
+[dev-packages]
+django-extensions = "*"
+django-debug-toolbar = "*"
+ipython = "*"
+
+[packages]
+Django = "*"
+djangorestframework = "*"
+django-filter = "*"
+dj-database-url = "*"
+"psycopg2-binary" = "*"
+
+[requires]
+python_version = "3.5"
